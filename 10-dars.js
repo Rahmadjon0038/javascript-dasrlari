@@ -110,14 +110,73 @@
 // console.log(obj2)
 
 
-const obj1 = {
+// const name = 'nomalum'
+// const obj1 = {
+//     name: "Rahmadjon",
+//     fio: "Abdullayev",
+//     age: "23",
+//     child: {
+//         childname: 'Sardorbek'
+//     }
+// }
+// let { name: yangiName, child: { childname } } = obj1
+
+// console.log(name)
+// console.log(yangiName)
+// console.log(childname)
+
+
+// let obj1 = {
+// name: 'Rahmadjon',
+// fio: "Abdullayev",
+// age: "23",
+// sayHi: ({ job, age }) => {
+//     console.log('salom => ', job, age)
+// }
+
+// Mainfunc() {
+//  console.log(this.name)
+// console.log(obj1.name)
+// }
+// }
+// obj1.sayHi({ job: "Designer", age: 14 })
+
+// let newObj = obj1
+// obj1 = null
+
+// newObj.Mainfunc()
+
+//Garbiche collection  => bu javascriptda ishlatilinmayotgan objectlarni avtomatik ochirib tashlanshi
+//this => bu javascriptdagi eng katta objectlardan bir va u qayerda ishlatilisna qiymati usha yerga teng boldi
+
+
+// let obj = {
+//     name: "Rahmadjon",
+//     child: {
+//         baxo: 2,
+//         baxo1: 3,
+//         baxo2: 5,
+//     }
+// }
+
+// let getData = ({ name, child: { baxo, baxo1, baxo2 } }) => {
+//     return `${name} ${(baxo + baxo1 + baxo2) / 3}`
+// }
+// console.log(getData(obj))
+
+let obj = {
     name: "Rahmadjon",
-    fio: "Abdullayev",
-    age: "23",
-    gender: "male",
-    job: "devoloper",
-    skisl: "nodejs Express"
+    child: {
+        baxo: 2,
+        baxo1: 3,
+        baxo2: 5,
+    },
+    sayhi(ism) {
+        let a = obj.child.baxo
+        let b = obj.child.baxo1
+        let c = obj.child.baxo2
+        console.log(a +b+ c)
+        return `nima gapla ${ism}`
+    }
 }
-for (let i in obj1){
-    console.log(obj1[i])
-}
+console.log(obj.sayhi('Rahmadjon'))
