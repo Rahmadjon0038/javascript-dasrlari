@@ -149,7 +149,6 @@
 //Garbiche collection  => bu javascriptda ishlatilinmayotgan objectlarni avtomatik ochirib tashlanshi
 //this => bu javascriptdagi eng katta objectlardan bir va u qayerda ishlatilisna qiymati usha yerga teng boldi
 
-
 // let obj = {
 //     name: "Rahmadjon",
 //     child: {
@@ -164,19 +163,50 @@
 // }
 // console.log(getData(obj))
 
+
+// let obj1 = {
+//     name: 'Rahmadjon',
+//     age: 12,
+//     child: {
+//         childname: "Sardorbek",
+//         age: 99,
+//         child: {
+//             childname: "Ali",
+//             age: 1,
+//         }
+//     }
+// }
+
+// obj1 = obj1.child
+// obj1 = obj1.child
+// console.log(obj1)
+
+// let natija = 0
+
+// while (1) {
+//     if (obj1) {
+//         natija += obj1.age
+//     }
+//     else {
+//         break
+//     }
+//     obj1 = obj1.child
+// }
+// console.log(natija)
+
+
+
 let obj = {
     name: "Rahmadjon",
-    child: {
-        baxo: 2,
-        baxo1: 3,
-        baxo2: 5,
-    },
-    sayhi(ism) {
-        let a = obj.child.baxo
-        let b = obj.child.baxo1
-        let c = obj.child.baxo2
-        console.log(a +b+ c)
-        return `nima gapla ${ism}`
-    }
+    age: 12,
+    job: "usta",
 }
-console.log(obj.sayhi('Rahmadjon'))
+let newObj = {  ...obj, gender: 'male', fio: "Aliyev" }
+
+console.log(obj)
+//SPREAD OPERATOR yani ... bu object malumotlarini uzgartirish uchun ishlatilinadi ...obj bu xolda objet qiymatlari tashqariga chiqadi
+
+
+
+
+
