@@ -3,7 +3,7 @@
 
 
 // let arr1 = new Array(1, 2, 3, 4, 5)
-// console.log(arr1[0])    ikkinchi usul
+// console.log(arr1[0])   ikkinchi usul
 
 // console.log(arr[arr.length - 1])   //ixirgi qiymatni olish
 
@@ -105,10 +105,58 @@
 // )
 // console.log('forEatch=>',newForetch)
 // console.log('map=>', newArr)
+// let result = num.filter((element) => element  == 'salom')
 
-let num = [12, 5, 7, 8, 4, 8, 0, 5, 3, 'salom']
+// let num = [1, 2, 5, 7, 8, 4, 8, 0, 5, 3]
 
-let result = num.filter((element) => element  == 'salom')
+// console.log(num.concat('salom',1));
 
-console.log(result)
+// // 1===2==3=[]===salom
+
+// let ismlar = ['Rahmadjon', 'Sardorbek', "Najmiddins", "Hojiakbar"]
+// ismlar = ismlar.map((i) => i.toUpperCase())
+// console.log(ismlar)
+
+// ================================================================
+// for(item in ismlar ){
+//     console.log(ismlar[item])
+// }
+// for(item of ismlar ){
+//     console.log(item)
+// }
+
+// let ismlar = ['Rahmadjon', 'Sardorbek', "Najmiddin", "Hojiakbar", 1, 3, 4, 6]
+
+// ismlar.splice(boshindex,nechtabelgiligi,yangi qiymat)
+// let newarr = ismlar.splice(2, 4)    //bu asl objectga tasir qiladi
+
+// let arr = [1, 2, 4, 5]
+// arr.splice(2, 0, 3)
+// // arr.splice(0,3)    
+// console.log(arr.slice(0, 3))    
+// console.log(arr)
+
+// indexOf()  shartga mos elementni boshidan indexni qaytaradi
+// console.log(arr.indexOf(9))   //malumot topilmasa -1 qaytadi
+
+// if (arr.indexOf(2) == -1) console.log('topilmadi')
+// else console.log('topildi')
+
+// let arr = [1, 2, 4, 2, 5, 6]
+// console.log(arr.indexOf(2, 2))  // 2-chi indexdan kn qidiradi
+// console.log(arr.lastIndexOf(2, 4))
+// let ism = 'Rahmadjon'
+// console.log(arr.join(''))
+
+// let ismArr = ism.split('')       // bu matnni arrayga aylantirish
+// ismArr.map((i) => console.log(i))
+// console.log(arr.reverse())
+// let ismlar = ['Rahmadjon', 'Sardorbek', "Najmiddin", "Hojiakbar"]
+// console.log(ismlar.includes('Najmiddin'))
+
+let name = 'taraqqiyot'
+
+
+
+
 
