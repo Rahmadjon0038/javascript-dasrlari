@@ -154,9 +154,31 @@
 // let ismlar = ['Rahmadjon', 'Sardorbek', "Najmiddin", "Hojiakbar"]
 // console.log(ismlar.includes('Najmiddin'))
 
-let name = 'taraqqiyot'
+// let name = 'taraqqiyot'
 
 
 
+// let arr = [1, 3, 6, 2, 4, 3, 5, 6, 3]
+// console.log(arr.indexOf(3, 3))
+
+// let arr = [1, 3, 6, 2, 4, 3, 5, 6, 3]
+// console.log(arr.slice(1, 3))
+// console.log(arr.splice(1, 3))
 
 
+// 🔎 find(callback) — Shartga mos birinchi elementni topadi
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+// const result = arr.find((item) => item > 10);
+// console.log(result)
+
+const sum = arr.reduce((total, current) => total + current, 0);
+console.log(sum)
+
+
+
+// 1 2 3 4 5 6 7  8 9
+// 1 + 9 = 10
+// 2 + 8 = 10
+// 3 + 7 =10
+// 6 + 4  10
+// 5
