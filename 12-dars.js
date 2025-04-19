@@ -165,20 +165,70 @@
 // console.log(arr.slice(1, 3))
 // console.log(arr.splice(1, 3))
 
+//  -------------------------------------------------------- ---------------------------------
 
 // 🔎 find(callback) — Shartga mos birinchi elementni topadi
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 // const result = arr.find((item) => item > 10);
 // console.log(result)
 
-const sum = arr.reduce((total, current) => total + current, 0);
-console.log(sum)
-
-
-
+// const sum = arr.reduce((total, current) => total + current, 0); 
+// console.log(sum)
 // 1 2 3 4 5 6 7  8 9
 // 1 + 9 = 10
-// 2 + 8 = 10
-// 3 + 7 =10
-// 6 + 4  10
+// 2 + 8 = 1010
+// 3 + 7 = 10
+// 6 + 4 = 10
 // 5
+
+// let arr = [11, 22, 3, 41, 5, 6, 9, 8, 9]
+
+// let matn = ['olma', 'nok', 'shaftoli', 'banan', 'anor']
+// console.log(arr.sort((a, b) => b - a))
+
+// matn = matn.sort((a, b) => b.localeCompare(a))
+// console.log(matn)
+
+// let users = [
+//     {
+//         id: 1,
+//         name: "Rahmadjon",
+//     },
+//     {
+//         id: 2,
+//         name: "Sardorbek",
+//     },
+//     {
+//         id: 3,
+//         name: "Abbosbek",
+//     },
+//     {
+//         id: 4,
+//         name: "qodir",
+//     },
+// ]
+
+// console.log(users.sort((a, b) => b.name.localeCompare(a.name)))
+
+
+// const arr = [1, [2, 4, 5,[3, 6,{name:"Salom"}, 77]]];  //flat() — nested (ichma-ich) arrayni bitta arrayga aylantiradi.
+
+// console.log(arr.flat(2))
+// console.log(arr[1][3][2].name)
+
+
+// Set — faqat unikal qiymatlar saqlaydi.
+// let sonlar = new Set([2, 3, 4, 6, 7, 8, 6, 3, 1])
+// let arr = [2, 3, 4, 6, 7, 8, 6, 3, 1]
+
+// console.log([...new Set(arr)])
+
+// Map — kalit-qiymat juftliklarini saqlaydi (har xil turdagi kalitlar bo'lishi mumkin).
+// const map = new Map();
+// map.set('ism', 'Rahmadjon');
+// map.set(1, 'raqam');
+
+// map.set('yosh', 56)
+// console.log(map.get('ism'));
+// console.log(map.get(1));
+// console.log(map)
