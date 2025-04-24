@@ -61,3 +61,5 @@
 // let arr = [10, 20, 30, 40, 50];
 // let qism = arr.slice(0,3)
 // console.log(qism)
+
+
