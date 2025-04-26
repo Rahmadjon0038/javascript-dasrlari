@@ -1,31 +1,15 @@
-.yangi{
-    text-align: center;
-    color: orange;
-    font-size: 50px;
-}
-.matn{
-    color: red;
-}
 
-.text{
-    color: white;
-    background-color: blue;
-    padding: 10px;
-    font-size: 20px;
+
+#container{
     transition: 1s;
 }
-
-body{
-    /* display: flex; */
-    gap: 10px;
-}
-div{
+#container div{
     width: 100px;
     height: 100px;
     border: 1px solid red;
     margin-top: 10px;
     transition: 0.5s;
 }
-div:hover{
-    background: orange;
+.card1{
+    background-color: orange;
 }
